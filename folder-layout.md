@@ -51,7 +51,7 @@ Stop and ask the user where it belongs. Add the agreed row to the table above fi
 
 Some reused skills name their own paths. This translation overrides them, and is repeated in `AGENTS.md` so every session has it:
 
-- `CONTEXT.md` → `glossary.md`
+- `GLOSSARY.md` or the older `CONTEXT.md` → `glossary.md`
 - "ADR", or `docs/adr/` → a decision record in `decisions/`, numbered on from the highest there, in the format and under the three tests of `how-this-folder-works/knowledge.md`
 - "issue", "spec" or "PRD" → a ticket, or a workstream's brief, per `how-this-folder-works/tickets.md`
 - `.scratch/<feature>/` → `work/<workstream>/`

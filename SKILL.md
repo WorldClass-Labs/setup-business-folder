@@ -60,7 +60,7 @@ Show the user a draft of:
 
   Read `state.md` before answering anything fact-dependent. When grilling, apply `how-this-folder-works/knowledge.md` as you go.
 
-  These paths override any skill's own: `CONTEXT.md` → `glossary.md`; an ADR or `docs/adr/` → `decisions/`, numbered on from the highest there, in the format of `how-this-folder-works/knowledge.md`; `.scratch/<feature>/` → `work/<workstream>/`.
+  These paths override any skill's own: `GLOSSARY.md` or the older `CONTEXT.md` → `glossary.md`; an ADR or `docs/adr/` → `decisions/`, numbered on from the highest there, in the format of `how-this-folder-works/knowledge.md`; `.scratch/<feature>/` → `work/<workstream>/`.
   ```
 
 - `how-this-folder-works/folder-layout.md`, `how-this-folder-works/tickets.md`, `how-this-folder-works/knowledge.md` (templates: [folder-layout.md](folder-layout.md), [tickets.md](tickets.md), [knowledge.md](knowledge.md)), with `{{TEAM}}` in `tickets.md` filled in from Section B as a comma-separated list, the user's name first and marked `— the user`
