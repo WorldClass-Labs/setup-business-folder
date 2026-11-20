@@ -34,10 +34,17 @@ Matt's skills are written for software repos and an issue tracker such as GitHub
 You need:
 
 - **Claude Code**, or another AI coding agent that can run skills, on a paid plan that includes it.
-- **git** on your computer, to download this skill.
 - **Matt Pocock's skills**, installed as below. This skill sets up the folder; his skills (`/grilling`, `/research`, `/handoff`, `/wayfinder` and others) do much of the work inside it.
 
 ## Install
+
+Claude Code can install both for you. Paste this into Claude Code:
+
+> Install Matt Pocock's skills by running `claude plugin install mattpocock-skills@claude-plugins-official`. Then install the skill at https://github.com/WorldClass-Labs/setup-business-folder into `~/.claude/skills/setup-business-folder`.
+
+Claude asks your permission before it downloads anything — allow it. Then start a new Claude Code session in the folder you want to set up and run `/setup-business-folder`. It runs only when you call it.
+
+### Installing by hand
 
 1. Install Matt Pocock's skills. In Claude Code, his README gives:
 
@@ -47,13 +54,13 @@ You need:
 
    For other agents, follow [the install steps in his README](https://github.com/mattpocock/skills#installation-30-second-setup).
 
-2. Clone this repo into your Claude skills folder:
+2. Copy this repo into your Claude skills folder. With git:
 
    ```bash
    git clone https://github.com/WorldClass-Labs/setup-business-folder.git ~/.claude/skills/setup-business-folder
    ```
 
-3. In Claude Code, open the folder you want to set up and run `/setup-business-folder`. It runs only when you call it.
+   Without git, click **Code → Download ZIP** on this page, unzip it, and move the folder (it unzips as `setup-business-folder-main`) to `~/.claude/skills/setup-business-folder`.
 
 ## What it writes
 
